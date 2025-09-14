@@ -1,6 +1,6 @@
 namespace Subjects {
   export interface Subject {
-    setTeacher(teacher: Teacher): void;
+    setTeacher(teacher:Teacher): void;
   }
 
   export class SubjectBase implements Subject {
