@@ -6,7 +6,7 @@ namespace Subjects {
     experienceTeachingC?: number;
   }
 
-  export class Cpp extends Subject {
+  export class Cpp extends SubjectBase {
     getRequirements(): string {
       return 'Here is the list of requirements for Cpp';
     }
